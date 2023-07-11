@@ -1,0 +1,35 @@
+{
+    "name": "javadle/gallery",
+    "description": "A Laravel Nova field.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0",
+        "intervention/image": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Javadle\\Gallery\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Javadle\\Gallery\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "suggest": {
+        "ext-imagick": "Install the Imagick extension to process image using ImageMagick.",
+        "ext-gd": "Install the GD extension to process images using GD.",
+        "ext-exif": "Install the exif extension to orientate images automatically."
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
