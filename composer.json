@@ -30,5 +30,5 @@
         "ext-gd": "Install the GD extension to process images using GD.",
         "ext-exif": "Install the exif extension to orientate images automatically."
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "dev"
 }
