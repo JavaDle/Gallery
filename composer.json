@@ -31,5 +31,4 @@
         "ext-exif": "Install the exif extension to orientate images automatically."
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
 }
